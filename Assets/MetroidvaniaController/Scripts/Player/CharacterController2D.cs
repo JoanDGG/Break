@@ -163,6 +163,26 @@ public class CharacterController2D : MonoBehaviour
                     //print("4");
                     m_Rigidbody2D.velocity = new Vector2(0, 1 * m_DashForce);
                 }
+                else if (dashType == 5)
+                {
+                    //print("5");
+                    m_Rigidbody2D.velocity = new Vector2(-1 * m_DashForce, 1 * m_DashForce);
+                }
+                else if (dashType == 6)
+                {
+                    //print("6");
+                    m_Rigidbody2D.velocity = new Vector2(-1 * m_DashForce, -1 * m_DashForce);
+                }
+                else if (dashType == 7)
+                {
+                    //print("7");
+                    m_Rigidbody2D.velocity = new Vector2(1 * m_DashForce, -1 * m_DashForce);
+                }
+                else if (dashType == 8)
+                {
+                    //print("8");
+                    m_Rigidbody2D.velocity = new Vector2(1 * m_DashForce, 1 * m_DashForce);
+                }
                 else
                 {
                     //print("0");

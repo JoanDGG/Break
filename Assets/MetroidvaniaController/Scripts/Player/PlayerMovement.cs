@@ -27,23 +27,54 @@ public class PlayerMovement : MonoBehaviour {
 			jump = true;
 		}
 
+        //Dash diagonal
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)))
+        {
+            //Dash Izquierda-Arriba
+            controller.dashType = 5;
+            print(controller.dashType);
+        }
+        else if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
+        {
+            //Dash Abajo-Izquierda
+            controller.dashType = 6;
+            print(controller.dashType);
+        }
+        else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
+        {
+            //Dash Derecha-Abajo
+            controller.dashType = 7;
+            print(controller.dashType);
+        }
+        else if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
+        {
+            //Dash Arriba-Derecha
+            controller.dashType = 8;
+            print(controller.dashType);
+        }
+
+        //Dash cruz
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            //Dash Izquierda
             controller.dashType = 1;
             print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
+            //Dash Abajo
             controller.dashType = 2;
             print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
+            //Dash Derecha
             controller.dashType = 3;
             print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
+            //Dash Arriba
             controller.dashType = 4;
             print(controller.dashType);
         }
