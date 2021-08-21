@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1258575674}
   - component: {fileID: 1258575673}
   - component: {fileID: 1258575672}
+  - component: {fileID: 1258575675}
   m_Layer: 0
   m_Name: KnightRed
   m_TagString: Untagged
@@ -487,6 +488,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1258575675
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258575671}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.005578324, y: -0.019738734}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.12}
+    newSize: {x: 0.12, y: 0.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08996281, y: 0.08052252}
+  m_EdgeRadius: 0
 --- !u!1 &1546771526
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +751,7 @@ GameObject:
   - component: {fileID: 1693439686}
   - component: {fileID: 1693439685}
   - component: {fileID: 1693439684}
+  - component: {fileID: 1693439687}
   m_Layer: 0
   m_Name: KnightBlue
   m_TagString: Untagged
@@ -815,6 +843,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1693439687
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693439683}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.008152954, y: -0.024029762}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.12}
+    newSize: {x: 0.12, y: 0.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08481355, y: 0.07194047}
+  m_EdgeRadius: 0
 --- !u!1 &1918634538 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010161159088, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
