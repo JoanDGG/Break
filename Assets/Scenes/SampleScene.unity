@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 142115735}
   - component: {fileID: 142115736}
+  - component: {fileID: 142115737}
   m_Layer: 0
   m_Name: gettingOverIt
   m_TagString: Untagged
@@ -250,6 +251,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!50 &142115737
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142115734}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &757840977
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,19 +591,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20000010728017760, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.0007278025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20000010728017760, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.058823526
+      value: 0.24431819
       objectReference: {fileID: 0}
     - target: {fileID: 20000010728017760, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.9985444
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20000010728017760, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.88235295
+      value: 0.5113636
       objectReference: {fileID: 0}
     - target: {fileID: 114342349241220822, guid: 6622b93cfd71148f88fa3b6097d487b6, type: 3}
       propertyPath: m_Enabled
