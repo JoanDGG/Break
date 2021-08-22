@@ -18,11 +18,55 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        string name = this.gameObject.name;
+        float movHorizontal = 0.0f;
+        bool jumpInput = false;
+
+        switch (name)
+        {
+            case "Bob":
+                if (Input.GetKey("a")) //Left
+                {
+                    movHorizontal = -0.5f;
+                }
+                else if (Input.GetKey("d")) //Right
+                {
+                    movHorizontal = 0.5f;
+                }
+                if (Input.GetKeyDown("c")) //Jump
+                {
+                    jumpInput = true;
+                }
+                if (Input.GetKeyDown("v")) //Dash
+                {
+                    dash = true;
+                }
+                break;
+            case "Jerry":
+                if (Input.GetKey("left")) //Left
+                {
+                    movHorizontal = -0.5f;
+                }
+                else if (Input.GetKey("right")) //Right
+                {
+                    movHorizontal = 0.5f;
+                }
+                if (Input.GetKeyDown(".")) //Jump
+                {
+                    jumpInput = true;
+                }
+                if (Input.GetKeyDown("-")) //Dash
+                {
+                    dash = true;
+                }
+                break;
+        }
+
+		horizontalMove = movHorizontal * runSpeed;
 
 		animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (jumpInput)
 		{
 			jump = true;
 		}
@@ -79,10 +123,10 @@ public class PlayerMovement : MonoBehaviour {
             print(controller.dashType);
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        /*if (Input.GetKeyDown(KeyCode.C))
 		{
             dash = true;
-		}
+		}*/
 
 		/*if (Input.GetAxisRaw("Dash") == 1 || Input.GetAxisRaw("Dash") == -1) //RT in Unity 2017 = -1, RT in Unity 2019 = 1
 		{
