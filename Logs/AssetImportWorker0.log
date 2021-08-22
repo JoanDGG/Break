@@ -15,11 +15,11 @@ D:/Unity/GAMEJAM/BREAK/Break
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62415
+54172
 Successfully changed project path to: D:/Unity/GAMEJAM/BREAK/Break
 D:/Unity/GAMEJAM/BREAK/Break
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,477 +35,72 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001838 seconds.
+Registered in 0.002587 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
+- Completed reload, in  2.138 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001353 seconds.
+Registered in 0.001399 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.343 seconds
+- Completed reload, in  1.494 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.1 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 2.566000 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.142400 ms MarkObjects: 1.893900 ms  DeleteObjects: 0.154200 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 4.592800 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.193900 ms MarkObjects: 3.301500 ms  DeleteObjects: 0.639200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/KnightBlue_Dash_Down_Right.png
-  artifactKey: Guid(a004e5fe528af46818a4f1d20628b81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Down_Right.png using Guid(a004e5fe528af46818a4f1d20628b81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baa9f0959f5a608f02035d059c9af4d') in 0.319494 seconds
-  Import took 0.325719 seconds .
+  path: Assets/Sprites/CespedAnimado.png
+  artifactKey: Guid(5d9a13a380d9244c7b4a249ab5cfc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/CespedAnimado.png using Guid(5d9a13a380d9244c7b4a249ab5cfc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef319fec780311d1600547697778e747') in 0.179586 seconds
+  Import took 0.184167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001678 seconds.
-  path: Assets/Sprites/Tiles_castilloInvertido.png
-  artifactKey: Guid(b1a53db2b6e5d44ffb046ee2a3c63733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles_castilloInvertido.png using Guid(b1a53db2b6e5d44ffb046ee2a3c63733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fe742bba6dc383688b851670b41638') in 0.034261 seconds
-  Import took 0.085721 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/Tiles_FondoPiedra.png
+  artifactKey: Guid(3a430a464d04848c6b7da4b931481c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles_FondoPiedra.png using Guid(3a430a464d04848c6b7da4b931481c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d912afe028575e574216f2da63bb8c') in 0.020053 seconds
+  Import took 0.055959 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Down.png
-  artifactKey: Guid(664f4414633a6477ba6a9144216d680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Down.png using Guid(664f4414633a6477ba6a9144216d680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4e885618a6bf53eb17b07756d3bc14') in 0.036932 seconds
-  Import took 0.040285 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/Tiles_Fondo_Noche.png
+  artifactKey: Guid(840d4fda9b9834c6f92e10dcb04079a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles_Fondo_Noche.png using Guid(840d4fda9b9834c6f92e10dcb04079a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6332253708e70244628600ef4be60593') in 0.032518 seconds
+  Import took 0.091137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/KnightBlue_Idle.png
-  artifactKey: Guid(b5ce83496ca7d45c7a49e077b0c6006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Idle.png using Guid(b5ce83496ca7d45c7a49e077b0c6006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7a5b8205f4d2097463fba260bd6393') in 0.013607 seconds
-  Import took 0.018870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Up.png
-  artifactKey: Guid(d0d0aa7baa0344d098140a09018162d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Up.png using Guid(d0d0aa7baa0344d098140a09018162d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8810731eb3bf61e43e9362c58011237') in 0.034131 seconds
-  Import took 0.089368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Sprites/KnightRed_Run.png
-  artifactKey: Guid(b43e2289e54924f9e92e9405193764ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Run.png using Guid(b43e2289e54924f9e92e9405193764ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f520a302b325a35d66399c96ecc62f7b') in 0.020559 seconds
-  Import took 0.047448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Right.png
-  artifactKey: Guid(9c0ddb42079924ff3b2d85fdbab45030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Right.png using Guid(9c0ddb42079924ff3b2d85fdbab45030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83e46afffe71d3d30734adc3952964b') in 0.030908 seconds
-  Import took 0.034499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/Tiles_escalonesCastillo.png
-  artifactKey: Guid(c9a7fe1e4daaa44ed846e25c343eeeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles_escalonesCastillo.png using Guid(c9a7fe1e4daaa44ed846e25c343eeeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e678298b7dcfad443dc3bf6881b912a') in 0.016187 seconds
-  Import took 0.019428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Up.png
-  artifactKey: Guid(4ac979745e0a948d0a022242c2147cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Up.png using Guid(4ac979745e0a948d0a022242c2147cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0791111bcb088f523f00bcaf90d1bd5') in 0.032303 seconds
-  Import took 0.035734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Down.png
-  artifactKey: Guid(c85cf6e1ac0e641df865867bc7678616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Down.png using Guid(c85cf6e1ac0e641df865867bc7678616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30f85b91be76a034053f647f3f4299') in 0.029786 seconds
-  Import took 0.033079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Down_Right.png
-  artifactKey: Guid(a765bf1416f4f431da6290f724476624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Down_Right.png using Guid(a765bf1416f4f431da6290f724476624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd459e6fb38ba69789e6068e0ffcfe2d0') in 0.029979 seconds
-  Import took 0.057532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Sprites/KnightBlue_Jump.png
-  artifactKey: Guid(e5ece3df2a89448a2b43e55c8eecddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Jump.png using Guid(e5ece3df2a89448a2b43e55c8eecddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abde353e42b5967821a3b139ccd027fc') in 0.039097 seconds
-  Import took 0.043026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Sprites/KnightRed_Jump.png
-  artifactKey: Guid(077bbe37d3e64423aa6c1b5aa935775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Jump.png using Guid(077bbe37d3e64423aa6c1b5aa935775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c90ebb7759880928e9375df9edf32fe') in 0.027915 seconds
-  Import took 0.033085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Sprites/KnightBlue_Run.png
-  artifactKey: Guid(864bf93cc30284bd8be5a1f86cce759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Run.png using Guid(864bf93cc30284bd8be5a1f86cce759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1142e84747d2c2f3611cbc2c9276db05') in 0.021892 seconds
-  Import took 0.025328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/MiniSpikes.png
-  artifactKey: Guid(5dfb21abef03b45ccbf1b12acdb67299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiniSpikes.png using Guid(5dfb21abef03b45ccbf1b12acdb67299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c78d95453e3190e1f06c4b1631ec2db') in 0.019055 seconds
-  Import took 0.023404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/KnightBlue_Wall_Jump.png
-  artifactKey: Guid(9a4584b41d889411484d9e06981bea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Wall_Jump.png using Guid(9a4584b41d889411484d9e06981bea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ba9151fde85dda5cf134ce245193a') in 0.021077 seconds
-  Import took 0.024768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Sprites/KnightRed_Wall_Sliding.png
-  artifactKey: Guid(ef7f10ac9ef6248e3a2954756e74de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Wall_Sliding.png using Guid(ef7f10ac9ef6248e3a2954756e74de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada890621b91ddbbd51b467556067175') in 0.016502 seconds
-  Import took 0.019851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/Tiles_plataformaCastillo.png
-  artifactKey: Guid(59e3720e602aa49eb98bd782b2f678db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles_plataformaCastillo.png using Guid(59e3720e602aa49eb98bd782b2f678db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92fe31e7ce6ccef9331ea906b5b311f') in 0.049777 seconds
-  Import took 0.060963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Right.png
-  artifactKey: Guid(bdf893408cbd04745a61195787c804bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Right.png using Guid(bdf893408cbd04745a61195787c804bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fe02d46e484df1cedc8a2c114b3da3') in 0.059229 seconds
-  Import took 0.098901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/KnightRed_Wall_Jump.png
-  artifactKey: Guid(d8aac34a5a20a4987a08cec22307d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Wall_Jump.png using Guid(d8aac34a5a20a4987a08cec22307d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c315e21a18a8c7fe9d66c2761692bf') in 0.048170 seconds
-  Import took 0.052530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Sprites/KnightRed_Idle.png
-  artifactKey: Guid(30b431feee4dc4ce0ad03a2ddc1e39c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Idle.png using Guid(30b431feee4dc4ce0ad03a2ddc1e39c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317e7a427c3a13a55bd3cb6108a4aecd') in 0.016192 seconds
-  Import took 0.095707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Up_Right.png
-  artifactKey: Guid(71051a27fe5bd4ee7aefe3184491887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Up_Right.png using Guid(71051a27fe5bd4ee7aefe3184491887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41866f4030ad7778215350254c55b245') in 0.055029 seconds
-  Import took 0.080284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Sprites/KnightBlue_Wall_Sliding.png
-  artifactKey: Guid(b2b940bb79afe471eb6753477377629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Wall_Sliding.png using Guid(b2b940bb79afe471eb6753477377629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe97d7218967298eade32590934ebd2') in 0.034115 seconds
-  Import took 0.067528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Up_Right.png
-  artifactKey: Guid(5d45fd6b1bc9c4adb8a8233c8ce39da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Up_Right.png using Guid(5d45fd6b1bc9c4adb8a8233c8ce39da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db06c37ee7c9c936fa9ffa659720e62b') in 0.044188 seconds
-  Import took 0.071123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.904739 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Down.png
-  artifactKey: Guid(c85cf6e1ac0e641df865867bc7678616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Down.png using Guid(c85cf6e1ac0e641df865867bc7678616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170758bba20f64ca0d0e2f0a31bc1bfa') in 0.059381 seconds
-  Import took 0.063560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Down_Right.png
-  artifactKey: Guid(a004e5fe528af46818a4f1d20628b81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Down_Right.png using Guid(a004e5fe528af46818a4f1d20628b81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affe4707275ffbfb131f472c46bc11ab') in 0.047148 seconds
-  Import took 0.050583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Down.png
-  artifactKey: Guid(664f4414633a6477ba6a9144216d680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Down.png using Guid(664f4414633a6477ba6a9144216d680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee210846675692e0a4f91d421b3471') in 0.044656 seconds
-  Import took 0.048855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/KnightBlue_Idle.png
-  artifactKey: Guid(b5ce83496ca7d45c7a49e077b0c6006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Idle.png using Guid(b5ce83496ca7d45c7a49e077b0c6006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d35604bf4270439500e60888e30528') in 0.014653 seconds
-  Import took 0.018999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Up.png
-  artifactKey: Guid(d0d0aa7baa0344d098140a09018162d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Up.png using Guid(d0d0aa7baa0344d098140a09018162d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384a6b454c5776496a711369a11b91bd') in 0.043508 seconds
-  Import took 0.047272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/KnightRed_Run.png
-  artifactKey: Guid(b43e2289e54924f9e92e9405193764ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Run.png using Guid(b43e2289e54924f9e92e9405193764ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee16e64b388287c880055b95d24a1e9') in 0.026899 seconds
-  Import took 0.031099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Right.png
-  artifactKey: Guid(9c0ddb42079924ff3b2d85fdbab45030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Right.png using Guid(9c0ddb42079924ff3b2d85fdbab45030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fa6b0ff419a23e1ba346ce9b6c45cb') in 0.049559 seconds
-  Import took 0.053589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Up.png
-  artifactKey: Guid(4ac979745e0a948d0a022242c2147cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Up.png using Guid(4ac979745e0a948d0a022242c2147cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53711a1530a6d51a358020929cf275c0') in 0.040934 seconds
-  Import took 0.044173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Down_Right.png
-  artifactKey: Guid(a765bf1416f4f431da6290f724476624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Down_Right.png using Guid(a765bf1416f4f431da6290f724476624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bda1c5d9acf4c6d7748fe92545af9b') in 0.041407 seconds
-  Import took 0.045317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/KnightBlue_Jump.png
-  artifactKey: Guid(e5ece3df2a89448a2b43e55c8eecddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Jump.png using Guid(e5ece3df2a89448a2b43e55c8eecddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f26624771b8dbc5c74661355ac95dee') in 0.035897 seconds
-  Import took 0.039985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Sprites/KnightRed_Jump.png
-  artifactKey: Guid(077bbe37d3e64423aa6c1b5aa935775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Jump.png using Guid(077bbe37d3e64423aa6c1b5aa935775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ba5499e8942233c6d4844b116f20bd') in 0.039048 seconds
-  Import took 0.042942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/KnightBlue_Run.png
-  artifactKey: Guid(864bf93cc30284bd8be5a1f86cce759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Run.png using Guid(864bf93cc30284bd8be5a1f86cce759f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608baf469448dd96fbecfc790772e8f5') in 0.040233 seconds
-  Import took 0.045341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/KnightBlue_Wall_Jump.png
-  artifactKey: Guid(9a4584b41d889411484d9e06981bea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Wall_Jump.png using Guid(9a4584b41d889411484d9e06981bea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a08f7ae8231ff30a623f6466379a7') in 0.037610 seconds
-  Import took 0.041649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/KnightRed_Wall_Sliding.png
-  artifactKey: Guid(ef7f10ac9ef6248e3a2954756e74de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Wall_Sliding.png using Guid(ef7f10ac9ef6248e3a2954756e74de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99b7f8169b79b011514e86bfab85bb8') in 0.026019 seconds
-  Import took 0.034671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Right.png
-  artifactKey: Guid(bdf893408cbd04745a61195787c804bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Right.png using Guid(bdf893408cbd04745a61195787c804bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507d7dfd846f6574f9cb57f6b5f3d818') in 0.044007 seconds
-  Import took 0.246102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Sprites/KnightRed_Wall_Jump.png
-  artifactKey: Guid(d8aac34a5a20a4987a08cec22307d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Wall_Jump.png using Guid(d8aac34a5a20a4987a08cec22307d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13a4b6ff0e023b2b8983ac9d667c09') in 0.048344 seconds
-  Import took 0.074916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Sprites/KnightRed_Idle.png
-  artifactKey: Guid(30b431feee4dc4ce0ad03a2ddc1e39c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Idle.png using Guid(30b431feee4dc4ce0ad03a2ddc1e39c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6390f189af2b678f8017e50ce51002') in 0.021844 seconds
-  Import took 0.025733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Sprites/KnightRed_Dash_Up_Right.png
-  artifactKey: Guid(71051a27fe5bd4ee7aefe3184491887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightRed_Dash_Up_Right.png using Guid(71051a27fe5bd4ee7aefe3184491887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55fb5b53071044a1b47e2a68aa28b81') in 0.052270 seconds
-  Import took 0.055881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Sprites/KnightBlue_Wall_Sliding.png
-  artifactKey: Guid(b2b940bb79afe471eb6753477377629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Wall_Sliding.png using Guid(b2b940bb79afe471eb6753477377629a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa8e1f4fe954f539c459cfe795af800') in 0.034667 seconds
-  Import took 0.038681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/KnightBlue_Dash_Up_Right.png
-  artifactKey: Guid(5d45fd6b1bc9c4adb8a8233c8ce39da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/KnightBlue_Dash_Up_Right.png using Guid(5d45fd6b1bc9c4adb8a8233c8ce39da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1953be0f2e73bf9eb4763dee982ae') in 0.040733 seconds
-  Import took 0.046596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 431.572898 seconds.
-  path: Assets/(Camera) Wolv Interactive/Pixel Perfect Retro Camera/Sprites/Knight Walk.png
-  artifactKey: Guid(d5ab7156ecbe57148b30728a20ce551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/(Camera) Wolv Interactive/Pixel Perfect Retro Camera/Sprites/Knight Walk.png using Guid(d5ab7156ecbe57148b30728a20ce551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff26749048ce7c0c1baf97d5b90253c4') in 0.141792 seconds
-  Import took 0.146499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/(Camera) Wolv Interactive/Pixel Perfect Retro Camera/Sprites/Knight Slash.png
-  artifactKey: Guid(54d2c12913d862145a6f7355ee0e91b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/(Camera) Wolv Interactive/Pixel Perfect Retro Camera/Sprites/Knight Slash.png using Guid(54d2c12913d862145a6f7355ee0e91b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78228988d56e90e309544906d872000') in 0.071218 seconds
-  Import took 0.076235 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.483 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
-Total: 2.223300 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.096800 ms MarkObjects: 1.760200 ms  DeleteObjects: 0.107600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
-Total: 2.888300 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.399600 ms  DeleteObjects: 0.140600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001308 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 2.759000 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.246800 ms MarkObjects: 2.004300 ms  DeleteObjects: 0.114600 ms)
+  Time since last request: 137.643356 seconds.
+  path: Assets/EscenarioNivel1.unity
+  artifactKey: Guid(9673af64e80b3415d972c14c0e9f3af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EscenarioNivel1.unity using Guid(9673af64e80b3415d972c14c0e9f3af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87dc55fe35df9fa73c7ad77e414f985') in 0.012906 seconds
+  Import took 0.018004 seconds .
 
