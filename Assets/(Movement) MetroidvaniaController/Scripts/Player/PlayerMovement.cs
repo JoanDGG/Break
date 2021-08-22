@@ -161,12 +161,4 @@ public class PlayerMovement : MonoBehaviour {
 		jump = false;
 		dash = false;
 	}
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            print("You Died");
-        }
-    }
 }
