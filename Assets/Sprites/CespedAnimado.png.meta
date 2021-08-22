@@ -1,34 +1,19 @@
 fileFormatVersion: 2
-guid: 077bbe37d3e64423aa6c1b5aa935775c
+guid: 5d9a13a380d9244c7b4a249ab5cfc071
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6410793990281253662
-    second: KnightRed_Jump_0
+      213: -4135096866055971337
+    second: CespedAnimado_0
   - first:
-      213: 6961452919619040831
-    second: KnightRed_Jump_1
+      213: 1857079835452477348
+    second: CespedAnimado_1
   - first:
-      213: 4759692567887991013
-    second: KnightRed_Jump_2
+      213: 1095972721231882368
+    second: CespedAnimado_2
   - first:
-      213: 2087440890891962829
-    second: KnightRed_Jump_3
-  - first:
-      213: -7859689560045840921
-    second: KnightRed_Jump_4
-  - first:
-      213: 9101019807196125105
-    second: KnightRed_Jump_5
-  - first:
-      213: -3658491927068253165
-    second: KnightRed_Jump_6
-  - first:
-      213: -3908675601775109212
-    second: KnightRed_Jump_7
-  - first:
-      213: -71346306017349313
-    second: KnightRed_Jump_8
+      213: 6644247141475593094
+    second: CespedAnimado_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -73,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KnightRed_Jump_0
+      name: CespedAnimado_0
       rect:
         serializedVersion: 2
         x: 0
         y: 24
-        width: 12
-        height: 12
+        width: 64
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,62 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eca319e4d84807a0800000000000000
-      internalID: -6410793990281253662
+      spriteID: 7fd17ea1f4f2d96c0800000000000000
+      internalID: -4135096866055971337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightRed_Jump_1
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 24
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f36bf7a0c8c0c9060800000000000000
-      internalID: 6961452919619040831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnightRed_Jump_2
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 24
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e0d70d2c23dd0240800000000000000
-      internalID: 4759692567887991013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnightRed_Jump_3
+      name: CespedAnimado_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 12
-        height: 12
+        y: 16
+        width: 64
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc98d373e6418fc10800000000000000
-      internalID: 2087440890891962829
+      spriteID: 4af8fa7654ca5c910800000000000000
+      internalID: 1857079835452477348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightRed_Jump_4
+      name: CespedAnimado_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 12
-        width: 12
-        height: 12
+        x: 0
+        y: 8
+        width: 64
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,41 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e51f90dcf5cce290800000000000000
-      internalID: -7859689560045840921
+      spriteID: 0886b8c126da53f00800000000000000
+      internalID: 1095972721231882368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KnightRed_Jump_5
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 12
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b718bd9b415d4e70800000000000000
-      internalID: 9101019807196125105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnightRed_Jump_6
+      name: CespedAnimado_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 12
-        height: 12
+        width: 64
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,50 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3146671d9fc6a3dc0800000000000000
-      internalID: -3658491927068253165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnightRed_Jump_7
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 0
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ab55fdcf3891c9c0800000000000000
-      internalID: -3908675601775109212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KnightRed_Jump_8
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31bcc5a9e6820ff0800000000000000
-      internalID: -71346306017349313
+      spriteID: 68bae8b829b153c50800000000000000
+      internalID: 6644247141475593094
       vertices: []
       indices: 
       edges: []
