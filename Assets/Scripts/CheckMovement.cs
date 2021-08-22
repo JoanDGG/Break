@@ -16,7 +16,7 @@ public class CheckMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rigidbody.velocity.magnitude > 0.1)
+        if ((Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.1) || (Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.1))
         {
             GameManager.moving = true;
         }
