@@ -329,8 +329,27 @@ public class CharacterController2D : MonoBehaviour
 
 	IEnumerator DashCooldown()
 	{
-		animator.SetBool("IsDashing", true);
-		isDashing = true;
+        if (dashType == 1 || dashType == 3)
+        {
+            animator.SetBool("IsDashing", true);
+        }
+        else if (dashType == 2)
+        {
+            animator.SetBool("IsDashing2", true);
+        }
+        else if (dashType == 4)
+        {
+            animator.SetBool("IsDashing3", true);
+        }
+        else if (dashType == 5 || dashType == 8)
+        {
+            animator.SetBool("IsDashing4", true);
+        }
+        else if (dashType == 6 || dashType == 7)
+        {
+            animator.SetBool("IsDashing5", true);
+        }
+        isDashing = true;
 		canDash = false;
 		yield return new WaitForSeconds(0.1f);
 		isDashing = false;
