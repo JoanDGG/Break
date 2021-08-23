@@ -12,7 +12,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_WallCheck;								//Posicion que controla si el personaje toca una pared
 
-	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+	const float k_GroundedRadius = .1f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
@@ -79,8 +79,8 @@ public class CharacterController2D : MonoBehaviour
 				if (!wasGrounded )
 				{
 					OnLandEvent.Invoke();
-					if (!m_IsWall && !isDashing) 
-						particleJumpDown.Play();
+					//if (!m_IsWall && !isDashing) 
+					//	particleJumpDown.Play();
 					canDoubleJump = true;
 					if (m_Rigidbody2D.velocity.y < 0f)
 						limitVelOnWallJump = false;
@@ -95,8 +95,9 @@ public class CharacterController2D : MonoBehaviour
 			Collider2D[] collidersWall = Physics2D.OverlapCircleAll(m_WallCheck.position, k_GroundedRadius, m_WhatIsGround);
 			for (int i = 0; i < collidersWall.Length; i++)
 			{
-				if (collidersWall[i].gameObject != null)
+				if (collidersWall[i].gameObject != null && collidersWall[i].gameObject.tag != "Cadena" && collidersWall[i].gameObject.tag != "Player")
 				{
+                    print(collidersWall[i].gameObject.tag);
 					isDashing = false;
 					m_IsWall = true;
 				}

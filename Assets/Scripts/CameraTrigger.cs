@@ -6,7 +6,7 @@ public class CameraTrigger : MonoBehaviour
 {
 
     new private string name;
-    public GameObject camera;
+    new public GameObject camera;
 
     // Start is called before the first frame update
     void Start()
