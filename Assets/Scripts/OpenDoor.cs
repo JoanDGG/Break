@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OpenDoor : MonoBehaviour
 {
+
+    public Image KeyIcon;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +25,8 @@ public class OpenDoor : MonoBehaviour
         if(other.gameObject.name == "Puerta" && GameManager.Key)
         {
             other.gameObject.SetActive(false);
+            KeyIcon.enabled = false;
+            GameManager.Key = false;
         }
     }
 }
