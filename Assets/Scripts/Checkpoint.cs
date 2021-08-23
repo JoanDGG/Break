@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Damage : MonoBehaviour
+public class Checkpoint : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,10 +18,10 @@ public class Damage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Player"))
         {
-            print("You died");
-            transform.position = new Vector2(GameManager.PX,GameManager.PY);
+            GameManager.PX = transform.position.x;
+            GameManager.PY = transform.position.y;
         }
     }
 }
