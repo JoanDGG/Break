@@ -50,6 +50,7 @@ public class SmoothFollow : MonoBehaviour
 
     void TrackPlayer()
     {
+        CameraTarget = target.transform;
         Vector2 offset = new Vector2(0, yOffset);
         float targetX = transform.position.x;
         float targetY = transform.position.y;

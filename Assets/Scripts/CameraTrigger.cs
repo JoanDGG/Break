@@ -6,6 +6,7 @@ public class CameraTrigger : MonoBehaviour
 {
 
     new private string name;
+    public GameObject camera;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +24,7 @@ public class CameraTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            switch (name)
-            {
-                case "1":
-                    GameManager.CameraX = 20.0f;
-                    break;
-                case "2":
-                    GameManager.CameraX = 40.0f;
-                    break;
-            }
+            camera.GetComponent<SmoothFollow>().target = this.gameObject;
         }
     }
 }
