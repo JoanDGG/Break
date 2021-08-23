@@ -21,17 +21,18 @@ public class BajaPuente : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        //puente.GetComponent<Animator>().enabled = false;
-        if (puente.transform.rotation.eulerAngles.z.CompareTo(355f) < 0)
+        if (puente.transform.rotation.eulerAngles.z.CompareTo(315f) < 0)
         {
             puente.transform.Rotate(new Vector3(0f, 0f, 1f), Space.Self);
         }
     }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
-        puente.GetComponent<Animation>().Play();
+
+        while (puente.transform.rotation.eulerAngles.z.CompareTo(270f) > 0)
+        {
+            puente.transform.Rotate(new Vector3(0f, 0f, -0.001f), Space.Self);
+        }
 
     }
-
 }
