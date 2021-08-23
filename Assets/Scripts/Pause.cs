@@ -28,6 +28,7 @@ public class Pause : MonoBehaviour
 
     public void Pausar()
     {
+        print("Paused");
         image.enabled = false;
         Menu.SetActive(true);
         Time.timeScale = 0;
