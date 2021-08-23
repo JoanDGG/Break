@@ -8,6 +8,7 @@ TagManager:
   - Boton
   - Llave
   - Puerta
+  - Cadena
   layers:
   - Default
   - TransparentFX
