@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
+
+    public GameObject players;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,8 @@ public class Damage : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             print("You died");
-            transform.position = new Vector2(GameManager.PX,GameManager.PY);
+            Instantiate(players, new Vector3(GameManager.PX, GameManager.PY, 0.0f), Quaternion.identity);
+            Destroy(transform.parent.gameObject);
         }
     }
 }
