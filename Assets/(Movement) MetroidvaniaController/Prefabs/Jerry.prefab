@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8057501806881960179}
   - component: {fileID: 7862882828717014569}
   - component: {fileID: 7861717032676583455}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: SmokeTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4826,7 +4826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8057105363628149973}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: AttackCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4858,7 +4858,7 @@ GameObject:
   - component: {fileID: 8056696223637932365}
   - component: {fileID: 7862667225612635267}
   - component: {fileID: 7861769162738364305}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: SmokeGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9730,7 +9730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8056991324483256593}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9760,7 +9760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8056560044548887213}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9798,7 +9798,7 @@ GameObject:
   - component: {fileID: 7996916341452641425}
   - component: {fileID: 8061181263075659903}
   - component: {fileID: 8061181263075659895}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Jerry
   m_TagString: Player
   m_Icon: {fileID: 0}
