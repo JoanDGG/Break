@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Damage : MonoBehaviour
 {
@@ -24,8 +25,12 @@ public class Damage : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             print("You died");
-            Instantiate(players, new Vector3(GameManager.PX, GameManager.PY, 0.0f), Quaternion.identity);
-            Destroy(transform.parent.gameObject);
+            print(GameManager.PX);
+            print(GameManager.PY);
+            SceneManager.LoadScene("EscenarioNivel1");
+
+            //Instantiate(players, new Vector3(GameManager.PX, GameManager.PY, 0.0f), Quaternion.identity);
+            //Destroy(transform.parent.gameObject);
         }
     }
 }

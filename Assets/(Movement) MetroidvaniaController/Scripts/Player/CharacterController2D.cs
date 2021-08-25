@@ -97,8 +97,7 @@ public class CharacterController2D : MonoBehaviour
 			{
 				if (collidersWall[i].gameObject != null && collidersWall[i].gameObject.tag != "Cadena" && collidersWall[i].gameObject.tag != "Player")
 				{
-                    print(collidersWall[i].gameObject.tag);
-					isDashing = false;
+                    isDashing = false;
 					m_IsWall = true;
 				}
 			}

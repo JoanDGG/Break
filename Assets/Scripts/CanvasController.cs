@@ -9,7 +9,7 @@ public class CanvasController : MonoBehaviour
     {
         if (Input.anyKey && transform.GetChild(0).gameObject.activeSelf)
         {
-            transform.GetChild(0).GetComponent<FadeOut>().Efecto();
+            transform.GetChild(0).GetComponent<FadeOut>().EfectoOut();
         }
     }
 }

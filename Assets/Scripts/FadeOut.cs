@@ -7,8 +7,17 @@ public class FadeOut : MonoBehaviour
 {
     public Image imagenFondo;
     public float tiempo = 2.0f;
-    // Start is called before the first frame update
-    public void Efecto()
+    
+    public void EfectoIn()
+    {
+        tiempo = 1.0f;
+        gameObject.SetActive(true);
+        imagenFondo.canvasRenderer.SetAlpha(0f);
+        imagenFondo.CrossFadeAlpha(1, tiempo, false);
+        StartCoroutine(EsperarFadeIn());
+    }
+
+    public void EfectoOut()
     {
         imagenFondo.canvasRenderer.SetAlpha(1f);
         imagenFondo.CrossFadeAlpha(0, tiempo, false);
@@ -18,6 +27,11 @@ public class FadeOut : MonoBehaviour
     public IEnumerator EsperarFadeOut()
     {
         yield return new WaitForSeconds(tiempo);
-        imagenFondo.gameObject.SetActive(false);
+        gameObject.SetActive(false);
+    }
+
+    public IEnumerator EsperarFadeIn()
+    {
+        yield return new WaitForSeconds(tiempo);
     }
 }

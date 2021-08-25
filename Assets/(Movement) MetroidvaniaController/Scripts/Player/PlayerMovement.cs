@@ -15,8 +15,22 @@ public class PlayerMovement : MonoBehaviour {
 
 	//bool dashAxis = false;
 	
+    void Start()
+    {
+        if(this.gameObject.name == "Bob")
+        {
+            transform.position = new Vector3(GameManager.PX - 3.3f, GameManager.PY, 0.0f);
+        }
+        else if (this.gameObject.name == "Jerry")
+        {
+            transform.position = new Vector3(GameManager.PX + 3.3f, GameManager.PY, 0.0f);
+        }
+        transform.parent.gameObject.transform.GetChild(1).gameObject.transform.position = new Vector3(GameManager.PX, GameManager.PY, 0.0f);
+    }
+
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 
         string name = this.gameObject.name;
         float movHorizontal = 0.0f;
@@ -76,25 +90,25 @@ public class PlayerMovement : MonoBehaviour {
         {
             //Dash Izquierda-Arriba
             controller.dashType = 5;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if ((Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
         {
             //Dash Abajo-Izquierda
             controller.dashType = 6;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)))
         {
             //Dash Derecha-Abajo
             controller.dashType = 7;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) && (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
         {
             //Dash Arriba-Derecha
             controller.dashType = 8;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
 
         //Dash cruz
@@ -102,25 +116,25 @@ public class PlayerMovement : MonoBehaviour {
         {
             //Dash Izquierda
             controller.dashType = 1;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             //Dash Abajo
             controller.dashType = 2;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             //Dash Derecha
             controller.dashType = 3;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
         else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             //Dash Arriba
             controller.dashType = 4;
-            print(controller.dashType);
+            //print(controller.dashType);
         }
 
         /*if (Input.GetKeyDown(KeyCode.C))

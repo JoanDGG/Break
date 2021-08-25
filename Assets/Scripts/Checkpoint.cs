@@ -22,6 +22,8 @@ public class Checkpoint : MonoBehaviour
         {
             GameManager.PX = transform.position.x;
             GameManager.PY = transform.position.y;
+            print(GameManager.PX);
+            print(GameManager.PY);
         }
     }
 }
