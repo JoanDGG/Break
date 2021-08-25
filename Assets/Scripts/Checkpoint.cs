@@ -4,22 +4,14 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject sign;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            sign.GetComponent<FadeOut>().EfectoText();
+
             GameManager.PX = transform.position.x;
             GameManager.PY = transform.position.y;
             print(GameManager.PX);

@@ -21,9 +21,9 @@ public class Pause : MonoBehaviour
         if(Time.timeScale == 0 && GameManager.moving)
         {
             print("Pause off");
-            transform.GetChild(0).GetComponent<FadeOut>().EfectoOut();
+            //transform.GetChild(0).GetComponent<FadeOut>().EfectoOut();
             image.enabled = true;
-            //Menu.SetActive(false);
+            Menu.SetActive(false);
             Time.timeScale = 1;
         }
 
@@ -37,8 +37,8 @@ public class Pause : MonoBehaviour
     {
         print("Paused");
         image.enabled = false;
-        //Menu.SetActive(true);
-        transform.GetChild(0).GetComponent<FadeOut>().EfectoIn();
+        Menu.SetActive(true);
+        //transform.GetChild(0).GetComponent<FadeOut>().EfectoIn();
         Time.timeScale = 0;
     }
 }
