@@ -61,4 +61,9 @@ public class FadeOut : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public void Salir()
+    {
+        Application.Quit();
+    }
 }

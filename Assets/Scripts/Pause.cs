@@ -7,7 +7,6 @@ public class Pause : MonoBehaviour
 {
 
     public GameObject Menu;
-    public Image image;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +21,6 @@ public class Pause : MonoBehaviour
         {
             print("Pause off");
             //transform.GetChild(0).GetComponent<FadeOut>().EfectoOut();
-            image.enabled = true;
             Menu.SetActive(false);
             Time.timeScale = 1;
         }
@@ -36,7 +34,7 @@ public class Pause : MonoBehaviour
     public void Pausar()
     {
         print("Paused");
-        image.enabled = false;
+
         Menu.SetActive(true);
         //transform.GetChild(0).GetComponent<FadeOut>().EfectoIn();
         Time.timeScale = 0;
